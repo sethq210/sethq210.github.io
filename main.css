@@ -1,5 +1,5 @@
 body {
-  background-color: #008348;
+  background-color: #17408B;
   font-family: Arial, sans-serif;
   max-width: 100rem;
 }
@@ -11,7 +11,7 @@ blockquote {
 }
 
 header {
-  background-color: #f79d0c;
+  background-color: white;
   font-size: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -24,7 +24,8 @@ img {
   width: 50%;
   float: left;
   padding-left: 40px;
-  padding-top: 10px;
+  padding-top: 30px;
+  padding-bottom: 0px;
 }
 
 .thumbnail {
@@ -32,16 +33,27 @@ img {
 }
 
 .caption {
-  font-size: 14px;
-  margin-left: 0px;
-  margin-right: 0px;
-  margin-top: 5px
+  float: left;
+  padding-left: 180px;
+  color: white;
+  font-style: italic;
 }
+
+.caption2 {
+  float: right;
+  padding-right: 60px;
+  color: white;
+  font-style: italic;
+  font-size: 12px;
+}
+
 
 h1 {
   font-style: italic;
   font-size: 65px;
   text-align: center;
+  padding-top: 150px;
+  color: #C9082A;
 }
 
 h2 {
@@ -52,19 +64,12 @@ h2 {
 .para1 {
   font-size: 28px;
   text-align: justify;
-  margin-right: 50px;
-  margin-top: 60px;
-  margin-bottom: 80px;
-  margin-left: 775px;
-}
-
-.otherimg {
-  max-width: 50rem;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
+  padding-right: 760px;
+  margin-top: 0px;
+  margin-bottom: 60px;
+  padding-left: 40px;
+  color: #C9082A;
+ }
 
 /*DataWrapper*/
 .data-wrapper-container{
@@ -73,6 +78,7 @@ h2 {
     margin-top: 20px;
     margin-right: 40px;
     margin-left: 40px;
+    padding-left: ;
 }
 
 /*DataWrapper*/
@@ -81,17 +87,17 @@ h2 {
     background-color: white;
     margin-right: 40px;
     margin-left: 40px;
-    margin-top: 20px;
+    margin-top: 0px;
+    padding: 20px;
+
 }
 .para2{
-  border-style: solid;
-  margin-left: 38px;
-  font-size: 20px;
-  margin-right: 38px;
-  margin-top: 20px;
+  font-size: 28px;
   text-align: justify;
-  color: white;
-}
+  padding:40px;
+  color: #C9082A;
+ }
+
 .para3{
   border-style: solid;
   margin-left: 38px;
@@ -102,8 +108,40 @@ h2 {
   color: white;
 }
 
-.img2{
-  width: 97.5%;
+.img1{
+float: right;
+height: 815px;
+width: 660px;
+padding: 50px;
+padding-right: 150px;
+padding-top: 100px;
 }
 
-/* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/sports/spo-3/spo258.cur), auto !important;} /* End 
+.img2{
+  width: 760px;
+  height: 715px;
+  padding-bottom: 20px;
+}
+
+.img3{
+  width: 1500px;
+  height: 1200px;
+  padding: 50px;
+  text-align: center;
+}
+
+.navbar {
+  background-color: #C9082A;
+}
+
+.container-fluid {
+  background-color: #C9082A;
+}
+
+.navbar-brand {
+  color: #17408B;
+  margin-left: 610px;
+  font-size: 30px;
+}
+
+/* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/sports/spo-3/spo262.cur), auto !important;} /* End https://www.cursors-4u.com */
