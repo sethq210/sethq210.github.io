@@ -45,7 +45,39 @@ img {
   padding-right: 60px;
   color: white;
   font-style: italic;
+}
+
+.caption3 {
+  float: left;
+  padding-left: 55px;
+  color: white;
+  font-style: italic;
+  font-size: 14px;
+}
+
+.caption4 {
+  float: right;
+  padding-right: 50px;
+  color: white;
+  font-style: italic;
+}
+
+.caption5 {
+  float: left;
+  padding-left: 80px;
+  color: white;
+  font-style: italic;
   font-size: 12px;
+}
+
+.caption6 {
+  float: center;
+  padding-right: 60px;
+  padding-left: 80px;
+  color: white;
+  font-style: italic;
+  font-size: 12px;
+  text-align: center;
 }
 
 
@@ -54,23 +86,14 @@ h1 {
   font-size: 65px;
   text-align: center;
   padding-top: 250px;
-  color: #C9082A;
+  padding-right: 60px;
+  color: white;
 }
 
 h2 {
   font-size: 24px;
   margin-bottom: 1.5rem;
 }
-
-.para1 {
-  font-size: 28px;
-  text-align: justify;
-  padding-right: 760px;
-  margin-top: 0px;
-  margin-bottom: 60px;
-  padding-left: 40px;
-  color: #C9082A;
- }
 
 /*DataWrapper*/
 .data-wrapper-container{
@@ -79,7 +102,6 @@ h2 {
     margin-top: 20px;
     margin-right: 40px;
     margin-left: 40px;
-    padding-left: ;
 }
 
 /*DataWrapper*/
@@ -90,32 +112,53 @@ h2 {
     margin-left: 40px;
     margin-top: 0px;
     padding: 20px;
-
 }
+
+.para1 {
+  font-size: 28px;
+  text-align: justify;
+  padding-top: 60px;
+  padding-left: 60px;
+  color: white;
+ }
+
 .para2{
   font-size: 28px;
   text-align: justify;
-  padding:40px;
-  color: #C9082A;
+  color: white;
+  padding-top: 90px;
+  padding-right: 30px;
  }
 
 .para3{
-  border-style: solid;
-  margin-left: 38px;
-  font-size: 20px;
-  margin-right: 38px;
-  margin-top: 775px;
+  font-size: 28px;
   text-align: justify;
   color: white;
-}
+  padding-top: 150px;
+  padding-right: 90px;
+ }
+
+.para4 {
+  font-size: 28px;
+  text-align: justify;
+  padding-top: 60px;
+  padding-left: 60px;
+  color: white;
+ }
+
+ .para5 {
+  font-size: 20px;
+  text-align: justify;
+  padding-top: 80px;
+  padding-right: 60px;
+  color: white;
+ }
 
 .img1{
 float: right;
-height: 815px;
-width: 675px;
-padding: 50px;
-padding-right: 100px;
-padding-top: 100px;
+height: 715px;
+width: 775px;
+padding-right: 50px;
 }
 
 .img2{
@@ -125,14 +168,16 @@ padding-top: 100px;
 }
 
 .img3{
-  width: 1500px;
-  height: 1200px;
-  padding: 50px;
+  width: 650px;
+  height: 800px;
+  padding-top: 50px;
+  padding-left: ;
   text-align: center;
 }
 
 .navbar {
   background-color: #C9082A;
+  width: 100%;
 }
 
 .container-fluid {
@@ -141,8 +186,9 @@ padding-top: 100px;
 
 .navbar-brand {
   color: #17408B;
-  margin-left: 610px;
   font-size: 30px;
+  display: block;
+  text-align: center
 }
 
 .navbar-brand2 {
